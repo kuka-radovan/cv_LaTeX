@@ -1,0 +1,142 @@
+﻿%====================
+% BUILD: xelatex cv.tex
+%====================
+\documentclass[a4paper]{cv}
+
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\graphicspath{{image/}}
+
+\begin{document}
+
+%====================
+% HEADER
+%====================
+\header{radovan}{kuka}{Team leader \& Senior front-end developer}
+
+%====================
+% SIDE BLOCK
+%====================
+
+\begin{aside}
+	% Photo
+	\includegraphics[scale=0.48]{photo.pdf}
+	\about{I am a software engineer with strong analytical and logical thinking, highly motivated by challenges and interesting projects. I am focused on web design and modern web technologies, especially HTML5 and JavaScript, which I consider as a programming language of future. I am a keen learner always seeking to improve my skills and keeping my knowledge up to date.}
+	% Address
+	\address{Pannónska 9}{900 21 Svätý Jur}
+	% Cellphone
+	\phone{(+421) 907 336 220}
+	% Email
+	\email{kuka.radovan@gmail.com}
+	% Links
+	\section{\vspace{5mm}\linkedIn{http://www.linkedin.com/in/radovankuka}   \github{https://github.com/kuka-radovan}   \twitter{https://twitter.com/radovan_kuka}   \facebook{https://www.facebook.com/kuka.radovan}}
+\end{aside}
+
+%====================
+% EXPERIENCE
+%====================
+\section{experience}
+\begin{entrylist}
+	\entry
+		{Team leader \& Senior front-end developer}
+		{06/2014 - Present}
+		{\emph{Datalan, a.s.}\\
+		Leading front-end team, development and implementation in ExtJS framework (JavaScript) and providing expert consultations.}
+	\entry
+		{UI designer \& front-end developer}
+		{03/2012 - 05/2014}
+		{\emph{Gratex International, a.s.}\\
+		Implementation of internal widgets in the Dojo framework (JavaScript) and application screens for an international insurance company.}
+	\entry
+		{Java developer}
+		{12/2010 - 03/2012}
+		{\emph{Vigour a.s.}\\
+		Front-end development of a banking system in Finantix framework (Java).}
+\end{entrylist}
+
+%====================
+% EDUCATION
+%====================
+\section{education}
+\begin{entrylist}
+	\entry
+		{Slovak University of Technology in Bratislava}
+		{2011 - 2013}
+		{\emph{Faculty of Informatics and Information Technologies (FIIT)}\\
+		Master's degree \emph{(Software Engineering)}}
+	\entry
+		{Slovak University of Technology in Bratislava}
+		{2007 - 2011}
+		{\emph{Faculty of Informatics and Information Technologies (FIIT)}\\
+		Bachelor's degree \emph{(Informatics)}}
+	\entry
+		{Gymnasium of Viliam Pauliny-Tóth in Martin}
+		{2003 - 2007}
+		{Graduated}
+\end{entrylist}
+
+%====================
+% CERTIFICATES
+%====================
+\section{certificates}
+\begin{entrylist}
+	\entry
+		{HTML5 Application Development Fundamentals}
+		{06/2013}
+		{\emph{Microsoft Technology Associate (MTA) \\ License: E310-5741}}
+	\entry
+		{MongoDB for Developers}
+		{01/2014}
+		{\emph{MongoDB, Inc.}}
+\end{entrylist}
+
+%====================
+% COMPETENCE
+%====================
+\section{competence}
+\begin{multicols}{3}
+	
+	\centerline{\textbf{Development}}
+	\begin{description}[style=multiline,leftmargin=1.8cm,font=\normalfont]
+		\item[JavaScript] {\huge\color{red}$\circ\circ\circ\circ\color{gray}\circ$}
+		\item[HTML5] {\huge\color{red}$\circ\circ\circ\color{gray}\circ\circ$}
+		\item[CSS3] {\huge\color{red}$\circ\circ\color{gray}\circ\circ\circ$}
+		\item[C++] {\huge\color{red}$\circ\circ\circ\color{gray}\circ\circ$}
+		\item[Java] {\huge\color{red}$\circ\circ\circ\color{gray}\circ\circ$}
+	\end{description}
+	\vfill
+	\columnbreak
+
+	\centerline{\textbf{Frameworks \& Tools}}
+	\begin{description}[style=multiline,leftmargin=1.5cm,font=\normalfont]
+		\item[Dojo] {\huge\color{red}$\circ\circ\circ\color{gray}\circ\circ$}
+		\item[ExtJS] {\huge\color{red}$\circ\circ\circ\color{gray}\circ\circ$}
+		\item[JQuery] {\huge\color{red}$\circ\circ\color{gray}\circ\circ\circ$}
+		\item[OpenCV] {\huge\color{red}$\circ\circ\color{gray}\circ\circ\circ$}
+		\item[Git] {\huge\color{red}$\circ\circ\circ\circ\color{gray}\circ$}
+	\end{description}
+	\vfill
+	\columnbreak
+	
+	\centerline{\textbf{Languages}}
+	\begin{description}[style=multiline,leftmargin=1.5cm,font=\normalfont]
+		\item[Slovak] {\huge\color{red}$\circ\circ\circ\circ\circ$}
+		\item[English] {\huge\color{red}$\circ\circ\circ\color{gray}\circ\circ$}
+		\item[German] {\huge\color{red}$\circ\color{gray}\circ\circ\circ\circ$}
+	\end{description}
+	\vfill
+	\columnbreak
+\end{multicols}
+
+\section{social skills}
+	communicability, ambitiousness, flexibility, independence, ability to work in a team
+	
+\section{interests}
+	graphic design, web development, digital photography, travelling
+	
+%====================
+% FOOTER
+%====================
+\footer{a}{b}{c}
+\end{document}
