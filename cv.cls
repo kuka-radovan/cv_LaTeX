@@ -26,7 +26,7 @@
 %\newcommand{\address}[2]{
 %	\begin{tabular}{r C{1cm}}
 %		~ & ~ \\
-%		#1 & \multirow{2}{*}{\large\color{textcolor}\faHome} \\ 
+%		#1 & \multirow{2}{*}{\large\color{textcolor}\faHome} \\
 %		#2 & \\
 %	\end{tabular}
 %}
@@ -41,7 +41,7 @@
 %	\begin{tabular}{r C{1cm}}
 %		~ & ~ \\
 %		\href{mailto:#1}{#1} &  \small\color{textcolor}\faEnvelopeAlt \\
-%	\end{tabular}	
+%	\end{tabular}
 %}
 
 \newcommand{\email}[1]{
@@ -53,7 +53,7 @@
 %	\begin{tabular}{r C{1cm}}
 %		~ & ~ \\
 %		#1 & \large\color{textcolor}\faMobilePhone \\
-%	\end{tabular}	
+%	\end{tabular}
 %}
 
 \newcommand{\phone}[1]{
@@ -62,19 +62,19 @@
 }
 
 \newcommand{\linkedIn}[1]{
-	\href{#1}{\huge\color{textcolor}\faLinkedinSign}
+	\href{#1}{\huge\color{textcolor}\faLinkedinSquare}
 }
 
 \newcommand{\github}[1]{
-	\href{#1}{\huge\color{textcolor}\faGithubSign}
+	\href{#1}{\huge\color{textcolor}\faGithubSquare}
 }
 
 \newcommand{\twitter}[1]{
-	\href{#1}{\huge\color{textcolor}\faTwitterSign}
+	\href{#1}{\huge\color{textcolor}\faTwitterSquare}
 }
 
 \newcommand{\facebook}[1]{
-	\href{#1}{\huge\color{textcolor}\faFacebookSign}
+	\href{#1}{\huge\color{textcolor}\faFacebookSquare}
 }
 
 %====================
@@ -101,7 +101,7 @@
 % FONTS
 %====================
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage[math-style=TeX]{unicode-math}
 \RequirePackage{fontawesome}
 
 \newfontfamily\bodyfont[]{Helvetica Neue LT Std}
@@ -119,8 +119,8 @@
 \newcommand{\header}[3]{
 	\begin{tikzpicture}[remember picture,overlay]
 		\node [rectangle, fill=fillheadercolor, anchor=north, minimum width=\paperwidth, minimum height=3.2cm] (box) at (current page.north){};
-				
-		\node [anchor=center] (name) at (box) {			
+
+		\node [anchor=center] (name) at (box) {
 			\fontsize{35pt}{68pt}\color{headercolor}
 			{\thinfont #1}{\bodyfont #2}
 		};
@@ -128,7 +128,7 @@
 			\fontsize{12pt}{20pt}\color{headercolor}
 			{\thinfont #3}
 		};
-			
+
   \end{tikzpicture}
   \vspace{1.8cm}
   \vspace{-2\parskip}
