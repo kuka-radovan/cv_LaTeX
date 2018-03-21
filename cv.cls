@@ -61,6 +61,11 @@
 	#1
 }
 
+\newcommand{\webpage}[1]{
+	\section{webpage}\\
+	\href{#1}{#1}
+}
+
 \newcommand{\linkedIn}[1]{
 	\href{#1}{\huge\color{textcolor}\faLinkedinSquare}
 }
