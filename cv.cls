@@ -62,8 +62,8 @@
 }
 
 \newcommand{\webpage}[1]{
-	\section{webpage}\\
-	\href{#1}{#1}
+	\section{web}\\
+	\href{https://#1}{#1}
 }
 
 \newcommand{\linkedIn}[1]{
