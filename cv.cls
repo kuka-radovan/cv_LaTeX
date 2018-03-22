@@ -130,7 +130,7 @@
 			{\thinfont #1}{\bodyfont #2}
 		};
 		\node [anchor=north] at (name.south) {
-			\fontsize{12pt}{20pt}\color{headercolor}
+			\fontsize{11pt}{20pt}\color{headercolor}
 			{\thinfont #3}
 		};
 
