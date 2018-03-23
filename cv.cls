@@ -78,10 +78,6 @@
 	\href{#1}{\huge\color{textcolor}\faTwitterSquare}
 }
 
-\newcommand{\facebook}[1]{
-	\href{#1}{\huge\color{textcolor}\faFacebookSquare}
-}
-
 %====================
 % COLORS
 %====================
