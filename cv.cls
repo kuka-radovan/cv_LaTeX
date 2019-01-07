@@ -142,7 +142,7 @@
 	\begin{tikzpicture}[remember picture,overlay]
 		\node [rectangle, fill=fillheadercolor, anchor=south, minimum width=\paperwidth, minimum height=1.5cm] (box) at (current page.south){};
 		\node [anchor=center] (name) at (box) {
-			\includegraphics[scale=0.15]{logo.png}
+			\includegraphics[scale=0.17]{logo_white.png}
 		};
 	\end{tikzpicture}
 }
