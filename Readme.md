@@ -3,13 +3,16 @@
 ## Preparation in Mac OS X
 
 1. install [BasicTeX](http://www.tug.org/mactex/morepackages.html)
+
 ```
-brew cask install basictex
+brew install --cask basictex
 ```
+
 > it will be probably necessary to add `texbin` to system `PATH` manually
-`export PATH="$PATH:/Library/TeX/Distributions/Programs/texbin"`
+> `export PATH="$PATH:/Library/TeX/Distributions/Programs/texbin"`
 
 2. instal packages:
+
 ```
 	sudo tlmgr install multirow
 	sudo tlmgr install ucharcat
@@ -21,11 +24,16 @@ brew cask install basictex
 ```
 
 3. install fonts:
-	- [fontawesome](http://fortawesome.github.io/Font-Awesome/)
-	- Helvetica Neue LT Std
+
+   - [fontawesome5](https://fontawesome.com/)
+     `sudo tlmgr install fontawesome5`
+
+   - [Helvetica Neue LT Std](https://freefontsdownload.net/free-helveticaneueltstdultltcno-font-135781.htm)
 
 4. run command
+
 ```
 	xelatex cv.tex
 ```
+
 > It should be run 2 times to generate also graphic

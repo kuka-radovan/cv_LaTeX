@@ -31,10 +31,11 @@
 %	\end{tabular}
 %}
 
-\newcommand{\address}[2]{
+\newcommand{\address}[3]{
 	\section{address}\\
 	#1 \\
-	#2
+	#2 \\
+	#3
 }
 
 %\newcommand{\email}[1]{
@@ -67,7 +68,7 @@
 }
 
 \newcommand{\linkedIn}[1]{
-	\href{#1}{\huge\color{textcolor}\faLinkedinSquare}
+	\href{#1}{\huge\color{textcolor}\faLinkedin}
 }
 
 \newcommand{\github}[1]{
@@ -103,7 +104,7 @@
 %====================
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX]{unicode-math}
-\RequirePackage{fontawesome}
+\usepackage{fontawesome5}
 
 \newfontfamily\bodyfont[]{Helvetica Neue LT Std}
 \newfontfamily\thinfont[]{Helvetica Neue LT Std 25 Ultra Light}
